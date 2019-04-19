@@ -1,4 +1,4 @@
-##667. Beautiful Arrangement II
+## 667. Beautiful Arrangement II
 
 ### Solution
 題目大意: 給我們一個數N以及K，找出一種排列使得數列兩個數的差絕對值正好有K個
