@@ -6,6 +6,7 @@
 
 想法如圖
 ![](https://github.com/hank6315/LeetCode/blob/master/LinkList/142.%20Linked%20List%20Cycle%20II/pic.jpg)
+
 一樣是快慢指針得概念
 
 當slow 走一步時，fast會走兩步
