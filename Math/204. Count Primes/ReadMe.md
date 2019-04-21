@@ -1,5 +1,15 @@
-## 204. Count Primes
-### Solution
+# 204. Count Primes
+###### tags: `Math`
+
+Count the number of prime numbers less than a non-negative number, n.
+
+Example:
+
+	Input: 10
+	Output: 4
+	Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+
+## Solution
 
 埃拉托斯特尼筛法Sieve of Eratosthenes
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sieve_of_Eratosthenes_animation.gif/350px-Sieve_of_Eratosthenes_animation.gif)
