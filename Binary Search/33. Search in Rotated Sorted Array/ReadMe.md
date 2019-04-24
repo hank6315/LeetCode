@@ -22,16 +22,19 @@ Output: -1
 
 ## Solution
 
-：0 1 2 4 5 6 7
-情况1：  6 7 0 1 2 4 5    起始元素0在中間的左邊
-情况2：  2 4 5 6 7 0 1    起始元素0在中間的右邊
+分析  
+example ：0 1 2 4 5 6 7
 
-如果要找0的話，有可能在mid的左邊以及右邊
+情况1：  6 7 **0** 1 2 4 5    起始元素0在中間的左邊  
+情况2：  2 4 5 6 7 **0** 1    起始元素0在中間的右邊  
 
-當A[mid] < A[end] < A[start]：情況1，
-右半序列A[mid+1 : end] sorted
-A[mid] < target <= A[end], 右半排序
+如果要找0的話，有可能在mid的`左邊`以及`右邊`
 
-當A[mid] > A[start] > A[end]：情况2，
-左半序列A[start : mid-1] sorted
-A[start] <= target < A[mid], 左半排序
+情況1 : 當A[mid] < A[end] < A[start]
+
+- 右半Array [mid+1 : end] , sorted
+    - A[mid] < target <= A[end], 右半排序
+
+情况2 : 當A[mid] > A[start] > A[end]
+- 左半序列A[start : mid-1] sorted
+    -  A[start] <= target < A[mid], 左半排序

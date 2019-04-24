@@ -23,5 +23,11 @@ Would this affect the run-time complexity? How and why?
 
 ## Solution
 
-若A[mid] == A[end] != A[target]
+會有重複尾端的情況
+
+若
+
+```
+(A[mid] == A[end]) != A[target]
+```
 end --
