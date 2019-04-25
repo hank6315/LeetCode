@@ -54,3 +54,5 @@ return: 3
 - 之後把start 加入到queue裡面
 - 拿取queue第一筆的string，針對每個String的字母去換成gens裡面的字母，若字母能在bank裡面找到的話，就繼續塞入queue，然後把這個字母從bank裡面刪除(因為找過了)
 - 紀錄每次遍歷的長度
+
+
