@@ -25,7 +25,7 @@ Example:
 原先是使用DFS方法去寫但發現會TLE(test case最後一個跑不過)
 思路跟[39. Combination Sum]是一樣的
 
-```cpp=
+```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
